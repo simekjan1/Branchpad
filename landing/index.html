@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Branchpad — offline stromové poznámky</title>
+
+  <link rel="stylesheet" href="landing.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="app/favicon.png" />
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="brand">
+        <h1 class="title">Branchpad</h1>
+      </div>
+
+      <p class="subtitle">
+        Minimalistické offline poznámky ve stromové struktuře.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="app/index.html">
+          Spustit demo
+        </a>
+
+        <a class="btn" 
+           href="https://github.com/simekjan1/Branchpad" 
+           target="_blank" 
+           rel="noopener">
+          GitHub repozitář
+        </a>
+      </div>
+
+      <p class="note">
+        Demo běží v prohlížeči. Poznámky se ukládají lokálně (IndexedDB).
+        Pro zálohu použij export JSON.
+      </p>
+    </header>
+
+    <section class="grid" aria-label="Vlastnosti">
+      <div class="card">
+        <h2>Offline</h2>
+        <p>Bez účtu. Bez cloudu. Funguje i bez internetu.</p>
+      </div>
+
+      <div class="card">
+        <h2>Strom poznámek</h2>
+        <p>Podpoznámky, sbalování větví, rychlá orientace.</p>
+      </div>
+
+      <div class="card">
+        <h2>Export / Import</h2>
+        <p>Markdown pro čtení, JSON pro zálohu a přenos.</p>
+      </div>
+
+      <div class="card">
+        <h2>Klávesnice</h2>
+        <p>Šipky, Enter, Delete, F2… nástrojový režim.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted">
+        © Branchpad — open-source (MIT). Všechny poznámky zůstávají u vás.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
