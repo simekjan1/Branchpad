@@ -131,3 +131,20 @@ body{
   .grid{ grid-template-columns: 1fr; }
   .hero{ padding: 1.25rem; }
 }
+.hero-logo {
+  width: 140px;
+  max-width: 40%;
+  margin-bottom: 1rem;
+}
+
+.preview {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.preview img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  border: 1px solid #222;
+}
